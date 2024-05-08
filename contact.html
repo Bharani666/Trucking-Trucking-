@@ -1,0 +1,98 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us | Travel.co</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .contact__form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact__form input[type="text"],
+        .contact__form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .contact__form textarea {
+            resize: vertical;
+            height: 150px;
+        }
+        .contact__form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact__form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav__logo"><a href="#">Travel.co</a></div>
+        <ul class="nav__links">
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link"><a href='https://www.youtube.com/watch?v=s3G2kLruJJo' target="_child">Blog</a></li>
+            <li class="link"><a href='https://www.easemytrip.com/deals.html' target="_child">Offers</a></li>
+            <li class="link"><a href='https://www.makemytrip.com/holidays-india/' target="_child">Services</a></li>
+            <li class="link"><a href='contact.html'>Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="section__container">
+            <div class="header__content">
+                <h1>Contact Us</h1>
+                <p>Have any questions or suggestions? Feel free to get in touch with us!</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="contact__form">
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="section__container">
+            <h4>Travel.co</h4>
+            <div class="social__icons">
+                <span><i class="ri-facebook-fill"></i></span>
+                <span><i class="ri-twitter-fill"></i></span>
+                <span><i class="ri-instagram-line"></i></span>
+                <span><i class="ri-linkedin-fill"></i></span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
